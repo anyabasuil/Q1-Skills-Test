@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Q1 Skills Test</title>
+        <style>
+
+            body {
+                font-family: Gill Sans, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #F4E1AA;
+                padding-bottom:40px;
+            }
+            header {
+                background-color: #CCB06A;
+                color: #015F73;
+                padding: 10px 0;
+                text-align: center;
+                font-size: 18px;
+            }
+            header h1 {
+                color: #015F73;
+                margin: 0;
+            } 
+            h2 {
+                color: #015F73;
+                margin: 20px 0 10px;
+                text-align: left;
+            }
+            p{
+                text-align: center;
+                font-size: 16px;
+                color: #0c5160;
+            }
+            #link1, #link2, #activity1 {
+                display: block;
+                text-align: left;
+                font-size: 16px;
+                color: #0c5160;
+            }
+            main {
+                padding: 20px;
+            }
+        #obmc-logo {
+            display: block;
+            margin: 0 auto;
+            border-radius: 100%;
+            background-color: #015e7352;
+        }
+        .container2{
+            justify-content: left;
+            align-items: left;
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 20px;
+            padding: 40px;
+            margin-bottom: 20px;
+            background-color: #fdf5df;
+            width: 50%;
+            font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+            color: #015F73;
+        }
+        #coding-pic {
+            display: block;
+            margin: 40px auto;
+            align-items: right;
+            margin-right: 220px;
+            border: 4px dotted #9d8548;
+            border-radius: 0px;
+            box-shadow: 20px 15px 10px rgba(123, 117, 117, 0.232);
+        }
+        #sections, #full-name, #email, #grade-level {
+            width: 40%;
+            padding: 10px;
+            margin: 2px 0 15px 0;
+            display: inline-block;
+            border: 2px dotted rgba(219, 219, 219, 0.767);
+            border-radius: 5px;
+            text-align: center;
+            background: #ffff;
+            align-items: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+            font-size: 16px;
+            color: #015F73;
+        }
+         
+        #why{
+            width: 50%;
+            padding: 10px;
+            display: inline-block;
+            border: 2px dotted rgba(219, 219, 219, 0.767);
+            border-radius: 5px;
+            text-align: left;
+            background: #ffff;
+            align-items: center;
+            width: 700px;
+            height:100px;
+            font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+            font-size: 16px;
+            color: #015F73;
+        }
+
+         #skill4{
+            width: auto;
+            padding: auto;
+            border: 2px dotted rgba(219, 219, 219, 0.767);
+            border-radius: auto;
+            text-align: auto;
+            background: #ffff;
+            align-items: auto;
+            font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+            font-size: 16px;
+            color: #015F73;
+        }
+
+        .btn{
+            background-color: #05b1b4;
+            color: #0d353e;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 18px;
+            width: 250px;
+            height: 80px;
+            font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+            font-size:30px;
+            font-weight: bold;
+            padding: 10px 20px;
+            margin-left: 20px;
+        }
+
+        footer {
+            color: #015e7338;
+            text-align: center;
+            padding: 10px 0;
+            position: bottom;
+            padding-top: 50px;
+            padding-bottom: 0px;
+            bottom: 0;
+            width: 100%;
+        }
+        </style>
+</head>
+<body>
+    <main>
+        <div class="form-container">
+            <form action="">
+                <!-- Form content goes here -->
+            </form>
+        </div>
+</body>
+    <div class="container">
+        <header>
+        <img id="obmc-logo" src="https://files.orangeapps.ph/disk001/School_Files/1/school-65/school_profile/1784985566-2021.png" 
+        alt="OBMC Logo" width="150" height="150">
+        <h1>OBMC Robotics Club Application form</h1>
+        </header>
+    <p>Welcome! Please fill out this form to apply for our school's Robotics Club.</p>
+        <div class="container1">
+             <img id="coding-pic" src="https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nJTIwc2V0dXB8ZW58MHx8MHx8fDA%3D" 
+        alt="Coding" width="400" height="650" align="right">
+     </div>
+        <br>
+        <div class="container2">
+        <section>
+            <form action="form_submission.php" method="post">
+                <label for="full-name">Full Name</label>
+                <br>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+                <br>
+                <br>
+
+                 <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br><br>
+                 <label for="grade-level">Grade Level</label>
+                <br>
+                <select name="grade-level" id="grade-level" placeholder="Select your grade level" required>
+                    <option value=""disabled selected>Select your grade level</option>
+                    <option value="grade-7">Grade 7</option>
+                    <option value="grade-8">Grade 8</option>
+                    <option value="grade-9">Grade 9</option>
+                    <option value="grade-10">Grade 10</option>
+                </select>
+
+                <br>
+                <br>
+                <label form="sections">Section</label>
+                 <br>
+                <select name="sections" id="sections" placeholder="Select your section" required>
+                    <option value=""disabled selected>Select your section</option>
+                    <option value="section-a">Emerald</option>
+                    <option value="section-b">Jade</option>
+                    <option value="section-c">Ruby</option>
+                    <option value="section-d">Sapphire</option>
+                    <option value="section-e">Topaz</option>
+                </select>
+                <br>
+                <br>
+                 <label for="skill1">What are your skills?</label required>
+            
+            <br>
+            <input type="checkbox" id="skill1" name="skill1">
+            <label for="skill1">Designing</label>
+            <br>
+            <input type="checkbox" id="skill2" name="skill2">
+            <label for="skill2">Coding</label>
+            <br>
+            <input type="checkbox" id="skill3" name="skill3">
+            <label for="skill3">Electronics</label>
+            <br>
+            <input type="checkbox" id="skill4" name="skill4">
+             <input type="text" id="skill4" name="skill4" placeholder="Others (please specify)">
+            <br>
+
+            <br>
+             <label for="why">Tell us why you want to join our robotics club:</label>
+                <br>
+                <br>
+                <textarea id="why" placeholder="I am interested in joining because..." id="why" name="why" required></textarea>
+                <br>
+
+            <br>
+            <h2>Top Robotics Activities We Offer</h2>
+            <p id="activity1">1. Robot Design and Construction</p>
+            <p id="activity1">2. Programming and Coding</p>
+            <p id="activity1">3. Electronics and Circuitry</p>
+            <br>
+
+            <h2>Helpful links:</h2>
+            <p><a id="link1" href="https://www.britannica.com/technology/robotics" target="_blank">Robotics - Brittanica</a></p>
+            <p><a id="link2" href="https://www.youtube.com/watch?v=oshQg1uSRvg" target="_blank">How to Code in 2026</a></p>
+         </div>
+            <br>
+                <button  type="submit" id="submit" name="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </div>
+</div>
+  <footer>
+        <p class="foot">&copy; 2026 Robotics Club | Created by Anya H. Basuil 9-Sapphire</p>
+    </footer>
+</html>
